@@ -56,7 +56,21 @@ nlp-project/
 
 This project is for educational purposes.
 
+> **Disclaimer:** The Personality Quiz uses a probabilistic AI model trained on TV scripts. While we aim for 90%+ accuracy, results may vary based on your input style. It is designed primarily for entertainment purposes!
+
 ---
-*Built by Rishabh*
-*For Fun and Learning*
+
+<div align="center">
+
+| | |
+|:-------------------------:|:-------------------------:|
+| <img width="1604" alt="Home Page" src="screenshots/home-page.png"> <br> <b>Home Page</b> | <img width="1604" alt="Personality Quiz" src="screenshots/personality-quiz.png"> <br> <b>Personality Quiz</b> |
+| <img width="1604" alt="Search Quotes" src="screenshots/search-quotes.png"> <br> <b>Semantic Search</b> | <img width="1604" alt="Data Insights" src="screenshots/data-insights.png"> <br> <b>Data Insights</b> |
+
+</div>
+
+---
+
+*Built by Rishabh*  
+*For Fun and Learning*  
 *PS: I am a big fan of FRIENDS*
