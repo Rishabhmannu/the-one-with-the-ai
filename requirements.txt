@@ -1,10 +1,10 @@
 # Core
 pandas>=2.0
-numpy>=1.24,<2.0.0
+numpy>=1.24
 
 # NLP
-gensim>=4.3
-spacy>=3.7
+gensim>=4.3.3
+spacy>=3.8.0
 nltk>=3.8
 sentence-transformers>=2.2
 
