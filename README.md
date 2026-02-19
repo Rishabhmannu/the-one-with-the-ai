@@ -1,5 +1,8 @@
 # ☕ The One With The AI
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://the-one-with-the-ai-qjgpwfpyrmpsnsdu7b9jli.streamlit.app)
+
+
 An end-to-end NLP project that uses **Word2Vec embeddings** trained on Friends TV show scripts to power semantic search and personality matching.
 
 ## ✨ Features
