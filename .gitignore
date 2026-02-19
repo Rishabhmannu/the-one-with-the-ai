@@ -12,9 +12,7 @@ env/
 .env
 .ipynb_checkpoints/
 
-# Large Data & Models (Do not commit to git)
-data/
-models/
+# Large Data & Models
 src/__pycache__/
 notebooks/
 # Documentation builds (if any)
