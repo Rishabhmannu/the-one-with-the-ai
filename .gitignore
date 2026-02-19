@@ -1,0 +1,24 @@
+# System artifacts
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.env
+.ipynb_checkpoints/
+
+# Large Data & Models (Do not commit to git)
+data/
+models/
+src/__pycache__/
+
+# Documentation builds (if any)
+docs/_build/
+
+# Streamlit config (if contains secrets)
+.streamlit/secrets.toml
