@@ -119,6 +119,31 @@ SCENARIOS = [
         "title": "Job opportunity",
         "prompt": "You got offered your dream job but it's in another city. How do you decide?",
     },
+    {
+        "emoji": "😍",
+        "title": "The Crush",
+        "prompt": "You see someone cute at Central Perk. What's your move?",
+    },
+    {
+        "emoji": "🤐",
+        "title": "The Secret",
+        "prompt": "A friend tells you a huge secret. Do you tell anyone?",
+    },
+    {
+        "emoji": "🦗",
+        "title": "The Silence",
+        "prompt": "Awkward silence in an elevator with your boss. What do you do?",
+    },
+    {
+        "emoji": "🎲",
+        "title": "The Competition",
+        "prompt": "You're losing at a board game. Reaction?",
+    },
+    {
+        "emoji": "🍷",
+        "title": "The Ex",
+        "prompt": "You run into your ex at a party. What do you say?",
+    },
 ]
 
 
@@ -130,7 +155,7 @@ def load_matcher():
 
 
 st.title("🎭 Personality Quiz")
-st.markdown("React to **5 scenarios** and find out which Friend you're most like!")
+st.markdown("React to **10 scenarios** and find out which Friend you're most like!")
 st.markdown("---")
 
 # Load matcher
@@ -169,8 +194,8 @@ with st.form("quiz_form"):
 # ── Results ───────────────────────────────────────────────────────────────────
 if submitted:
     filled = [a for a in answers if a.strip()]
-    if len(filled) < 2:
-        st.warning("Please fill in at least 2 scenarios for an accurate match!")
+    if len(filled) < 5:
+        st.warning("Please fill in at least 5 scenarios for an accurate match!")
     else:
         with st.spinner("Analyzing your personality..."):
             results = matcher.match_multiple(filled)

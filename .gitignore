@@ -16,9 +16,14 @@ env/
 data/
 models/
 src/__pycache__/
-
+notebooks/
 # Documentation builds (if any)
 docs/_build/
 
 # Streamlit config (if contains secrets)
 .streamlit/secrets.toml
+
+#pdf documents
+NLP-Project-Idea.pdf
+nlp-project.rtf
+PROJECT_PLAN.md
